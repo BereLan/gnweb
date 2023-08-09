@@ -1,2 +1,0 @@
-# gnweb
-html website
