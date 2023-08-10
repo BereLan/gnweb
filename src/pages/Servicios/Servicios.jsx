@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 function Servicios() {
@@ -233,6 +234,7 @@ function Servicios() {
 				</div>
 			</div>
 			<div className="espacio"></div>
+			<Footer />
 		</>
 	);
 }

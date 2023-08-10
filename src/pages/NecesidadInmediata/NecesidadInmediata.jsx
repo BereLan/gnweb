@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 function NecesidadInmediata() {
@@ -86,6 +87,7 @@ function NecesidadInmediata() {
 				</div>
 			</div>
 			<div className="espacio"></div>
+			<Footer />
 		</>
 	);
 }

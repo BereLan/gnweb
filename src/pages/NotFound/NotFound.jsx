@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 function NotFound() {
@@ -14,6 +15,7 @@ function NotFound() {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 }

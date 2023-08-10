@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import naser33 from "../../assets/images/naser_33.png";
+import Footer from "../../components/Footer/Footer";
 
 function Nosotros() {
 	return (
@@ -177,6 +178,7 @@ function Nosotros() {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 }

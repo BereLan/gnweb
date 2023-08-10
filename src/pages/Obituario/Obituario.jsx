@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 function Obituario() {
 	return (
@@ -244,6 +245,7 @@ function Obituario() {
 			</div>
 
 			<div className="espacio"></div>
+			<Footer />
 		</>
 	);
 }
