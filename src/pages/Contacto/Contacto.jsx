@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import Map from "../../components/Map/Map";
 
 function Contacto() {
 	return (
@@ -144,15 +145,8 @@ function Contacto() {
 				</div>
 			</div>
 
-			<div id="map">
-				{/* <iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3764.3138261735658!2d-99.1548251!3d19.3555595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffceb43f8f2b%3A0xb585425f2ce42392!2sGrupo%20Naser%20Corporativo!5e0!3m2!1ses-419!2smx!4v1681948207940!5m2!1ses-419!2smx"
-					width="100%"
-					height="500px"
-					frameborder="0"
-					style="border: 0"
-					allowfullscreen
-				></iframe> */}
+			<div className="map-container" id="map">
+				<Map />
 			</div>
 
 			<div className="partners contact-partners">

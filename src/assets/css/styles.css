@@ -1,3 +1,18 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+/* These CSS variables are global, so they are available in all CSS modules */
+:root {
+	--color-brand--1: #ffb545;
+	--color-brand--2: #00c46a;
+
+	--color-dark--0: #242a2e;
+	--color-dark--1: #2d3439;
+	--color-dark--2: #42484d;
+	--color-light--1: #aaa;
+	--color-light--2: #ececec;
+	--color-light--3: #d6dee0;
+}
+
 body {
 	font-family: "Poppins", sans-serif;
 	overflow-x: hidden;
@@ -1405,4 +1420,8 @@ footer .contact-form button.filled-button:hover {
 		color: #fe8f00 !important;
 		border-bottom: none !important;
 	}
+}
+
+.map-container {
+	height: 600px;
 }
