@@ -5,10 +5,10 @@ function NotFound() {
 	return (
 		<>
 			<Header />
-			<div class="page-heading header-text">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
+			<div className="page-heading header-text">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-12">
 							<h1>Pagina no encontrada</h1>
 							{/* <span>Más de 33 años de experiencia en el ramo funerario</span> */}
 						</div>
