@@ -1263,7 +1263,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item {
-	padding: 0;
+	padding: 12px;
 	background-color: #f7f7f7;
 	text-align: center;
 }

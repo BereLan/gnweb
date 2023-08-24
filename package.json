@@ -8,7 +8,8 @@
 		"build": "vite build",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"server": "json-server --watch data/cities.json --port 8000 --delay 500"
+		"server": "json-server --watch data/cities.json --port 8000 --delay 500",
+		"devcon": "concurrently -k -n VITE,JSONSERVER -c yellow,blue \"vite\" \"json-server --watch data/cities.json --port 8000 --delay 500\""
 	},
 	"dependencies": {
 		"bootstrap": "^4.6.2",
@@ -22,6 +23,7 @@
 		"@types/react": "^18.2.15",
 		"@types/react-dom": "^18.2.7",
 		"@vitejs/plugin-react": "^4.0.3",
+		"concurrently": "^8.2.1",
 		"eslint": "^8.46.0",
 		"eslint-config-react-app": "^7.0.1",
 		"eslint-plugin-react": "^7.32.2",
